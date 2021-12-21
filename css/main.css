@@ -1,0 +1,152 @@
+:root{
+    --black_color: #262526;
+    --white_color: #f3f3f3;
+    --grey_color_one: #d7d8da;
+    --grey_color_two: #afb2b7;
+    --grey_color_three: #7f8084;
+    --colorKoya : #ff914d;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.boton-este{
+    background: var(--grey_color_one);
+    color: var(--black_color);
+}
+
+.boton-este:hover{
+    background: var(--black_color);
+    color: var(--grey_color_one);
+    border-color: var(--grey_color_two)
+}
+
+.boton-link{
+    color: var(--white_color);
+    font-size: 3rem;
+}
+
+.boton-link:hover{
+    color: var(--grey_color_two);
+}
+/*----Koya Net----*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300&display=swap');
+
+.logotipo{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--colorKoya);
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.logotipo-texto{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--colorKoya);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-koya{
+    color: var(--colorKoya);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-koya:hover{
+    text-decoration: underline;
+    color: var(--colorKoya);
+}
+/*----NAV----*/
+
+#mainNav.navbar-expand-lg .navbar-nav .nav-item .nav-link{
+    font-family: 'Rubik', sans-serif;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link{
+    font-family: 'Rubik', sans-serif;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover{
+    color: var(--grey_color_two);
+}
+
+
+#mainNav.navbar-expand-lg .navbar-nav .nav-item .nav-link.active,
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active{
+    color: var(--grey_color_two) !important;
+    text-decoration: underline;
+}
+
+
+/*----INICO----*/
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url(../assets/index02.gif);
+    /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/home.png")*/
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+#inicio.page-section{
+    /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/index.jpg");*/
+    background: var(--grey_color_two) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+hr.divider{
+    background: var(--grey_color_one);
+}
+
+/*----Sobre Nosotros----*/
+
+.text-primary{
+    color: var(--black_color) !important;
+}
+
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+  .team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  /*SERVICIO 1*/
+  .services{
+    background: var(--grey_color_one);
+  }
+
+/*----Trabajos de clientes----*/
+
+
+/*----Carousel de Menciones----*/
+
+
+
+/*----Contacto----*/
+
+
+#contact{
+    background: var(--grey_color_one);
+}
+
+.boton-input{
+    border: 1px solid var(--black_color);
+}
+
+.form-select:focus{
+    box-shadow: 0 0 0 0.25rem var(--black_color);
+}
